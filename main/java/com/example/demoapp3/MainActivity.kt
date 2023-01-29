@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         requestBtn.setOnClickListener {
             requestPermission()
         }
+
+
     }
 
     private fun hasWriteExternalStoragePermission() =
